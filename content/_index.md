@@ -10,9 +10,9 @@ fullWidth: false
 
 <p class="text-large">{{%md%}}A free online conference for people who want to build a leaner, faster, and more resilient&nbsp;web, organized by [Chris Ferdinandi](https://gomakethings.com/).{{%/md%}}</p>
 
-{{<cta for="conference">}}
+Together, we'll explore the latest tips, tricks, and techniques for building websites and web apps *without* the use of frameworks and big libraries.
 
-**What's Vanilla JS?** Vanilla JS is a term for native JavaScript features and browser APIs. In other words, coding *without* a framework or library.
+{{<cta for="conference">}}
 
 
 {{<mailchimp intro="true">}}
