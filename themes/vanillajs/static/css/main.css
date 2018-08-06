@@ -517,6 +517,7 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 .h1 {
   font-size: 1.5em;
+  padding-top: .5em;
 }
 
 @media (min-width: 38em) {
@@ -1487,13 +1488,13 @@ td {
 }
 
 /* line 115, src/sass/components/_nav-main.scss */
-.nav a:hover, .nav .link-block-styled:hover, .nav .link-block:hover .link-block-styled, .link-block:hover .nav .link-block-styled,
-.nav a:active,
-.nav .link-block-styled:active,
-.nav a:focus,
-.nav .link-block-styled:focus,
-.nav .active a,
-.nav .active .link-block-styled {
+.nav a:not(.btn):hover, .nav .link-block-styled:not(.btn):hover, .nav .link-block:hover .link-block-styled:not(.btn), .link-block:hover .nav .link-block-styled:not(.btn),
+.nav a:not(.btn):active,
+.nav .link-block-styled:not(.btn):active,
+.nav a:not(.btn):focus,
+.nav .link-block-styled:not(.btn):focus,
+.nav .active a:not(.btn),
+.nav .active .link-block-styled:not(.btn) {
   border-bottom: 0.125em solid #fa7176;
   color: #272727;
 }

@@ -112,10 +112,10 @@
 	/**
 	 * Active link styling
 	 */
-	a:hover,
-	a:active,
-	a:focus,
-	.active a {
+	a:not(.btn):hover,
+	a:not(.btn):active,
+	a:not(.btn):focus,
+	.active a:not(.btn) {
 		border-bottom: calc-em(2px) solid $color-secondary;
 		color: $color-black;
 		// text-decoration: none;

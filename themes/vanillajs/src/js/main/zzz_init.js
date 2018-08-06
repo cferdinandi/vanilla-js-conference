@@ -10,16 +10,23 @@ fluidvids.init({
 
 // Smooth scrolling anchor links
 if (document.querySelector('a[href*="#"]')) {
-	var scroll = new SmoothScroll('a[href*="#"]');
+	var scroll = new SmoothScroll('a[href*="#"]', {
+		ignore: '.expand'
+	});
 }
 
 // Mailchimp form
 if (document.querySelector('#mailchimp-form')) {
 	mailchimp(function (data) {
 		if (data.code === 200) {
-			window.location.href = 'https://gomakethings.com/newsletter-success';
+			window.location.href = '/registration-success';
 		}
 	});
+}
+
+// Show/hide
+if (document.querySelector('.expand')) {
+	expand();
 }
 
 // API for CTAs
