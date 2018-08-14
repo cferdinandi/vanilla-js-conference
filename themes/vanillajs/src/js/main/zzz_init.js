@@ -10,9 +10,7 @@ fluidvids.init({
 
 // Smooth scrolling anchor links
 if (document.querySelector('a[href*="#"]')) {
-	var scroll = new SmoothScroll('a[href*="#"]', {
-		ignore: '.expand'
-	});
+	var scroll = new SmoothScroll('a[href*="#"]');
 }
 
 // Mailchimp form
@@ -22,11 +20,6 @@ if (document.querySelector('#mailchimp-form')) {
 			window.location.href = '/registration-success';
 		}
 	});
-}
-
-// Show/hide
-if (document.querySelector('.expand')) {
-	expand();
 }
 
 // API for CTAs

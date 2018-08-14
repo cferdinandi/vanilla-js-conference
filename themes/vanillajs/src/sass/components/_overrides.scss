@@ -111,9 +111,11 @@
 	margin-right: auto;
 }
 
-// .float-right {
-// 	float: right;
-// }
+.float-right-large {
+	@media (min-width: $bp-medium) {
+		float: right;
+	}
+}
 
 
 /**
@@ -146,6 +148,12 @@
 
 .margin-right {
 	margin-right: calc-em(4px);
+}
+
+.margin-left-large {
+	@media (min-width: $bp-medium) {
+		margin-left: 1em;
+	}
 }
 
 
