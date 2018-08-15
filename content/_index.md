@@ -39,21 +39,21 @@ One of the most valuable parts of a conference is the networking and conversatio
 			<img class="img-circle" height="175" width="175" src="/img/2018/sarah-dayan.jpg">
 			<h3 class="padding-top-small no-margin-bottom">Sarah Dayan</h3>
 		</a>
-		<p>How to Make a JavaScript Library that Any Developer Can Use</p>
+		<p class="text-small">How to make a JavaScript library that any developer can use</p>
 	</div>
 	<div class="grid-third">
 		<a href="/speakers/andy-bell">
 			<img class="img-circle" height="175" width="175" src="/img/2018/andy-bell.jpg">
 			<h3 class="padding-top-small no-margin-bottom">Andy Bell</h3>
 		</a>
-		<p>Reactive, State-Based Components with Vanilla&nbsp;JS</p>
+		<p class="text-small">The power of progressive enhancement</p>
 	</div>
 	<div class="grid-third">
 		<a href="/speakers/divya-sasidharan">
 			<img class="img-circle" height="175" width="175" src="/img/2018/divya-sasidharan.jpg">
 			<h3 class="padding-top-small no-margin-bottom">Divya Sasidharan</h3>
 		</a>
-		<p>Something Awesome!</p>
+		<p class="text-small">Something awesome!</p>
 	</div>
 </div>
 
